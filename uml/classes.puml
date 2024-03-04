@@ -4,12 +4,14 @@ class Professeur
 
 class Discipline
 
-class Cours
 
 class Etudiant
 
-Professeur "1" -- "*" Discipline
-(Professeur, Discipline) .. Cours
-Etudiant "5..30" -- "*" Cours
+<> Cours
+
+Professeur "1" -- Cours
+Etudiant "5..30" -- Cours
+Discipline "*" -- Cours : cours
+
 
 @enduml
