@@ -16,4 +16,4 @@ Etant donné le diagramme de domaine ci-dessus, les assertions suivantes sont-el
 
 Représentez la même association avec la notation UML « petit losange » 
 
-- Quelles informations perd-on par rapport au diagramme ci-dessus ? - On perd de combien de cours est suivi par un étudiant
+- Quelles informations perd-on par rapport au diagramme ci-dessus ? - On perd l'information sur le nombre d'étudiants par cours

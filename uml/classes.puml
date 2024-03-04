@@ -9,8 +9,8 @@ class Etudiant
 
 <> Cours
 
-Professeur "1" -- Cours
-Etudiant "5..30" -- Cours
+Professeur "*" -- Cours
+Etudiant "*" -- Cours
 Discipline "*" -- Cours : cours
 
 
